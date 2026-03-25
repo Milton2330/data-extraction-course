@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.pytest_cache/
+
+# Local databases and generated outputs
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+
+# Keep source data under data versioned, except generated batch files if needed
+!data/
+!data/**
+
+# Keep docs and notebooks tracked
+!docs/
+!docs/**
+!notebooks/
+!notebooks/**
+
+# Ignore generated files inside notebooks folders
+notebooks/**/top_generos.csv
+notebooks/**/vendas_sujas.csv
+notebooks/**/shark_attacks_messy.csv
+notebooks/**/chinook.db
+notebooks/**/northwind.db
