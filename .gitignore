@@ -41,3 +41,6 @@ notebooks/**/vendas_sujas.csv
 notebooks/**/shark_attacks_messy.csv
 notebooks/**/chinook.db
 notebooks/**/northwind.db
+
+# Large local datasets
+data/aula_12/creditcard.csv

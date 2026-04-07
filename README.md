@@ -33,8 +33,8 @@ Tecnicas para transformar dados brutos em dados mais consistentes e utilizaveis.
 | **Lab 04** | [Visualizacao de Dados Ausentes](./notebooks/aula_06/Lab_04_missing_values_viz_iris_datasus.ipynb) | Analise de padroes de nulidade e visualizacao de dados faltantes. |
 | **Lab 05** | [Imputacao de Dados](./notebooks/aula_07/lab_05_imputation.ipynb) | Estrategias de preenchimento para valores ausentes. |
 | **Lab 06** | [Tratamento de Cardinalidade](./notebooks/aula_08/lab_06_cardinality.ipynb) | Agrupamento de categorias raras e reducao de cardinalidade. |
-| **Lab 10** | [Deteccao de Outliers](./notebooks/aula_11/lab_11_outliers.ipynb) | Identificacao e tratamento de outliers com tecnicas estatisticas. |
-| **Lab 11** | [Datas e Series Temporais](./notebooks/aula_10/lab_09_datetime.ipynb) | Parsing de datas e criacao de atributos temporais. |
+| **Lab 09** | [Datas e Series Temporais](./notebooks/aula_10/lab_09_datetime.ipynb) | Parsing de datas e criacao de atributos temporais. |
+| **Lab 11** | [Deteccao de Outliers](./notebooks/aula_11/lab_11_outliers.ipynb) | Identificacao e tratamento de outliers com tecnicas estatisticas. |
 
 ### Modulo 3: Engenharia de Atributos
 
@@ -45,8 +45,28 @@ Criacao de variaveis e transformacoes para apoiar analise e modelagem.
 | **Lab 07** | [Encoders Categoricos](./notebooks/aula_08/lab_07_encoders.ipynb) | Transformacao de variaveis categoricas para modelos. |
 | **Lab 08** | [Criacao de Features](./notebooks/aula_10/lab_10_feature_engineering.ipynb) | Geracao de novas variaveis a partir de colunas existentes. |
 | **Lab 09** | [Discretizacao (Binning)](./notebooks/aula_09/lab_09_binning.ipynb) | Conversao de variaveis continuas em faixas. |
+| **Avancado** | [Encoders e Tecnicas Avancadas](./notebooks/aula_09/lab_07_parte_02_advanced.ipynb) | Frequency Encoding e Target Encoding para alta cardinalidade. |
 
-### Modulo 4: Scripts e Materiais de Apoio
+### Modulo 4: Escalonamento e Selecao de Variaveis
+
+Tecnicas para preparar atributos para modelos e reduzir dimensionalidade.
+
+| Lab | Atividade | Competencias Demonstradas |
+| :--- | :--- | :--- |
+| **Lab 12** | [Scaling e SMOTE](./notebooks/aula_12/lab_12_scaling_smote.ipynb) | Padronizacao de variaveis numericas e balanceamento de classes. |
+| **Lab 13** | [SelectFromModel](./notebooks/aula_12/lab_13_select_model.ipynb) | Selecao automatica de features com modelos baseados em arvore. |
+| **Lab 14** | [RFE](./notebooks/aula_12/lab_14_rfe.ipynb) | Eliminacao recursiva de variaveis para reduzir o conjunto de atributos. |
+
+### Modulo 5: Pipelines e Automacao
+
+Organizacao do pre-processamento em esteiras reproduziveis.
+
+| Lab | Atividade | Competencias Demonstradas |
+| :--- | :--- | :--- |
+| **Exemplo** | [Codigo Espaguete](./notebooks/aula_13/Exemplo_Codigo_Espaguete.ipynb) | Comparacao entre fluxo manual fragil e fluxo estruturado. |
+| **Lab 15** | [Pipelines Intro](./notebooks/aula_13/lab_15_pipelines_intro.ipynb) | Uso de `Pipeline` com imputacao e escalonamento. |
+
+### Modulo 6: Scripts e Materiais de Apoio
 
 Arquivos auxiliares usados nas aulas praticas.
 
@@ -63,6 +83,9 @@ Arquivos auxiliares usados nas aulas praticas.
 Os artefatos mais recentes atualmente presentes no repositorio sao:
 
 - [Lab de Outliers](./notebooks/aula_11/lab_11_outliers.ipynb)
+- [Scaling e SMOTE](./notebooks/aula_12/lab_12_scaling_smote.ipynb)
+- [RFE](./notebooks/aula_12/lab_14_rfe.ipynb)
+- [Pipelines Intro](./notebooks/aula_13/lab_15_pipelines_intro.ipynb)
 - [Aula 11 em PDF](./docs/aula_11/Aula%2011_Completa_EPD.pdf)
 
 ---
