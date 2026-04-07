@@ -65,6 +65,9 @@ Organizacao do pre-processamento em esteiras reproduziveis.
 | :--- | :--- | :--- |
 | **Exemplo** | [Codigo Espaguete](./notebooks/aula_13/Exemplo_Codigo_Espaguete.ipynb) | Comparacao entre fluxo manual fragil e fluxo estruturado. |
 | **Lab 15** | [Pipelines Intro](./notebooks/aula_13/lab_15_pipelines_intro.ipynb) | Uso de `Pipeline` com imputacao e escalonamento. |
+| **Lab 16A** | [Aquecimento de Transformers](./notebooks/aula_14/lab_16_aquecimento.ipynb) | Criacao de transformadores customizados compativeis com Scikit-Learn. |
+| **Lab 16** | [Transformers e Pipeline em Producao](./notebooks/aula_14/lab_16.ipynb) | Exportacao de classes customizadas e integracao com `Pipeline`. |
+| **Arquivo** | [Custom Transformers](./notebooks/aula_14/custom_transformers.py) | Classe `ConversorTemporal` reutilizavel fora do notebook. |
 
 ### Modulo 6: Scripts e Materiais de Apoio
 
@@ -86,6 +89,7 @@ Os artefatos mais recentes atualmente presentes no repositorio sao:
 - [Scaling e SMOTE](./notebooks/aula_12/lab_12_scaling_smote.ipynb)
 - [RFE](./notebooks/aula_12/lab_14_rfe.ipynb)
 - [Pipelines Intro](./notebooks/aula_13/lab_15_pipelines_intro.ipynb)
+- [Transformers e Pipeline em Producao](./notebooks/aula_14/lab_16.ipynb)
 - [Aula 11 em PDF](./docs/aula_11/Aula%2011_Completa_EPD.pdf)
 
 ---
